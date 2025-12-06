@@ -538,6 +538,173 @@ footer a:hover {
   color: #088178;
 }
 
+/* shop page  */
+#page-header{
+  background-image: url(images/banner/b1.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  pad: 14px;
+}
+#page-header h2 ,
+#page-header p  {
+  color: #fff;
+
+}
+#pagination{
+  text-align: center;
+}
+#pagination a{
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #088178;
+  color: #fff;
+  padding: 14px 20px;
+  font-weight: 600;
+}
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* *single product page*  */
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+#prodetails .single-pro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col{
+  cursor: pointer;
+  flex-basis: 24%;
+}
+#prodetails .single-pro-details{
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+  padding:40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+  font-size: 24px;
+}
+#prodetails .single-pro-details select{
+  margin-bottom: 10px;
+  padding:5px 10px;
+  display: block;
+}
+#prodetails .single-pro-details input{
+  padding-left: 10px;
+  font-size: 14px;
+  width: 50px;
+  height: 47px;
+  margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+  outline: none;}
+#prodetails .single-pro-details button{
+  background-color: #088178;
+  color: #fff;
+}
+#prodetails .single-pro-details span{
+  line-height: 25px;
+  text-align: left;
+}
+
+/* Blog page  */
+#page-header.blog-header{
+  background-image: url(images/banner/b19.jpg);
+}
+#blog{
+  padding: 150px 150px 0 150px;
+}
+#blog .blogbox{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+#blog .blog-img{
+  width: 50%;
+  margin-right:40px;
+}
+#blog img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+#blog .blog-details a{
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s;
+}
+#blog .blog-details a:hover{
+  color: #088178;
+}
+#blog .blog-details{
+  width: 50%;
+}
+.blogbox{
+  position: relative;
+  padding-bottom: 90px;
+}
+.blogbox h1{
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  color: #c9cbce;
+  font-size: 70px;
+  font-weight: 700;
+  z-index: -1;
+}
+
+/* About page  */
+#page-header.about-header{
+  background-image: url(images/about/banner.png);
+}
+#about-head img{
+  width: 50%;
+  height: auto;
+}
+#about-head{
+display: flex;
+align-items: center;
+}
+#about-head .details{
+  padding-left: 40px;
+}
+#about-app {
+  text-align: center;
+}
+#about-app .video{
+  width: 50%;
+  height: 100%;
+  margin-top: 30px auto 0 auto;
+}
+#about-app .video video{
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+ 
+
+
+
+
+
+
+
 /* make responsivness , first navbar  */
 @media (max-width:799px) {
   .section-p1{
